@@ -1,0 +1,10 @@
+# Supabase project configuration
+# https://supabase.com/docs/guides/local-development
+
+project_id = "xauusd-ai-trading-analysis"
+
+[functions.analyze-chart]
+verify_jwt = true
+
+[functions.market-data]
+verify_jwt = true
